@@ -1,0 +1,22 @@
+<!-- <h1>{{title}}</h1>
+<br>
+
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    doc<input ngModel name="doc" type="text">
+    name<input ngModel name="name"  type="text">
+    age<input ngModel name="age" type="number">
+
+  <button>Add</button>
+</form>
+<p>{{ items | json}}</p> -->
+<div class="container">
+  <div class="row">
+    <app-header class="col-12"></app-header>
+    <div class="col-8">
+      <router-outlet></router-outlet>
+    </div>
+    <div class="col-4">
+      <app-students-list></app-students-list>
+    </div>
+  </div>
+</div>
