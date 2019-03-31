@@ -1,2 +1,6 @@
-
-<p>{{ students | json }}</p>
+<div class="card" style="width: 18rem;" *ngFor="let student of students">
+  <img class="card-img-top" [src]="student.photo" alt="Card image cap" />
+  <div class="card-body">
+    <h5 class="card-title">{{ student.name }}</h5>
+  </div>
+</div>

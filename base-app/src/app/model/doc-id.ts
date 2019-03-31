@@ -1,3 +1,5 @@
+
 export interface DocId {
-  id: string;
+  Id: string;
+  created_timestamp: Date;
 }
